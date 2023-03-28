@@ -1,27 +1,150 @@
 .main {
+  padding-top: 50px;
   text-align: center;
+  background-color: plum;
+  color: white;
+  padding-bottom: 50px;
 }
 
-.insertar {
-  flex-direction: row;
-  width: 100%;
+.section {
   margin: auto;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.insertar input {
+  border: plum;
+  border-radius: 50px;
+  background-color: plum;
+  padding: 10px;
+}
+
+.botones {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.boton1 {
+  background-color: plum;
+  border-color: plum;
+  color: white;
+  border-radius: 50%;
+  margin: 25px 0px;
+  font-size: 14px;
+  padding: 20px 10px;
+}
+
+.boton2 {
+  background-color: white;
+  border-color: blueviolet;
+  color: blueviolet;
+  border-radius: 50%;
+  margin: 25px 0px;
+  font-size: 14px;
+  padding: 20px 15px;
+}
+
+.boton3 {
+  background-color: blueviolet;
+  border-color: white;
+  color: white;
+  border-radius: 50%;
+  margin: 25px 0px;
+  font-size: 14px;
+  padding: 20px 10px;
+}
+
+.pie {
+  background-color: plum;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: 20vh;
+}
+
+.pieTexto h3 {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.pieTexto h5 {
+  color: white;
+  font-size: 14px;
 }
 
 @media (min-width: 320px) and (max-width: 467px) {
   .section {
+    text-align: center;
     padding-top: 30px;
-  }
-  .h1Invitados {
     padding-bottom: 30px;
+  }
+
+  .pie {
+    padding-top: 20px;
   }
 }
 
 @media (min-width: 468px) and (max-width: 768px) {
+  .section {
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .insertar input {
+    width: 500px;
+  }
+
+  .botones {
+    padding-left: 400px;
+  }
+
+  .pie {
+    padding-top: 50px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .section {
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .insertar input {
+    width: 500px;
+  }
+
+  .botones {
+    padding-left: 400px;
+  }
+
+  .pie {
+    padding-top: 50px;
+  }
 }
 
 @media (min-width: 1025px) {
+  .main p {
+    font-size: 18px;
+  }
+
+  .section {
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .insertar input {
+    width: 1300px;
+  }
+
+  .botones {
+    padding-left: 1500px;
+  }
+
+  .pie {
+    padding-top: 50px;
+  }
 }

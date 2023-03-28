@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <header>
+    <header class="NavBar">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Proyecto 2</a>
@@ -31,13 +31,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Melissa Fuentes</a
-                >
-              </li>
-            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
 
             <span class="navbar-text"> Melissa Fuentes </span>
           </div>
@@ -45,29 +39,63 @@
       </nav>
     </header>
     <main class="main">
-      <h1>Proyecto 2 Utilizando DOM y CRUD</h1>
+      <h1>Estas invitado a la fiesta de Yeli</h1>
       <p>
-        Qué es un CRUD? <br />
-        Es un proceso de software que nos permite manipular datos,<br />
-        utilizando la persistencia <br />
         <br />
-        A continuacion, verás un ejemplo listado de tareas, el cuál <br />
-        te permitirá agregar, modificar, borrar y leer pendientes quee tengas.
+        Es curioso que siendo la vida tan corta, no nos detengamos más seguido a
+        celebrar
+        <br />que estamos vivos y que tenemos la dicha de cumplir años.
         <br />
-        <br />Ten la libertad de usarlo a tu conveniencia.
+        <br />
+        Así que quiero invitarte a que celebres conmigo esta ocasion
+        <br />
+        especial en donde nos reuniremos varios amigos y familia a disfrutar
+        <br />
+        en el salon "Mi casa" a las 6:00 PM el día 03 de marzo del 2023.
+        <br />
+        <br />
+        Me emociona mucho saber que estarás en esta reunión y que harás un
+        espacio en tu
+        <br />
+        agenda para salirte de la rutina y pasar un rato diferente. Así que te
+        pido
+        <br />
+        registrate en la siguiente sección para confirmar tu asistencia.
       </p>
     </main>
 
     <section class="section">
-      <h3 class="h1Invitados">Lista de invitados</h3>
+      <h3 class="h1Invitados">Registro de invitados</h3>
 
       <div class="insertar">
         <label for="name">Nombre</label>
+        <br />
         <input id="nombre" type="text" name="name" />
-
+        <br />
         <label for="apellido">Apellido</label>
+        <br />
         <input id="apellido" type="text" apellido="apellido" />
       </div>
+      <div class="botones">
+        <button class="boton1">Agregar</button>
+        <button class="boton2">Editar</button>
+        <button class="boton3">Eliminar</button>
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer class="pie">
+        <div class="pieTexto">
+          <h3>Contacto</h3>
+          <h5>Instagram</h5>
+          <h5>WhatsApp</h5>
+        </div>
+
+        <div class="pieTexto">
+          <h3>Help</h3>
+          <h5>Reviews</h5>
+        </div>
+      </footer>
     </section>
 
     <script src="./js/code.js"></script>
