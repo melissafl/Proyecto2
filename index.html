@@ -40,7 +40,7 @@
     </header>
     <main class="main">
       <h1>Estas invitado a la fiesta de Yeli</h1>
-      <p>
+      <p class="parrafo">
         <br />
         Es curioso que siendo la vida tan corta, no nos detengamos más seguido a
         celebrar
@@ -70,18 +70,30 @@
       <div class="insertar">
         <label for="name">Nombre</label>
         <br />
-        <input id="nombre" type="text" name="name" />
+        <input id="nombreIn" type="text" name="name" />
         <br />
         <label for="apellido">Apellido</label>
         <br />
-        <input id="apellido" type="text" apellido="apellido" />
+        <input id="apellidoIn" type="text" apellido="apellido" />
       </div>
       <div class="botones">
-        <button class="boton1">Agregar</button>
-        <button class="boton2">Editar</button>
-        <button class="boton3">Eliminar</button>
+        <button class="boton1" onclick="agregarInvitado()">Agregar</button>
+        <button class="boton2" onclick="mostrarInvitado()">Mostrar</button>
+        <button class="boton3" onclick="eliminarInvitado()">Eliminar</button>
       </div>
     </section>
+    <article>
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpoTabla"></tbody>
+      </table>
+    </article>
 
     <section class="footer">
       <footer class="pie">

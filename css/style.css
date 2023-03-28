@@ -11,6 +11,7 @@
   font-weight: bold;
   color: blueviolet;
   font-size: 20px;
+  margin: auto;
 }
 
 .insertar input {
@@ -42,7 +43,7 @@
   border-radius: 50%;
   margin: 25px 0px;
   font-size: 14px;
-  padding: 20px 15px;
+  padding: 20px 10px;
 }
 
 .boton3 {
@@ -78,6 +79,11 @@
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .parrafo {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .pie {
