@@ -28,7 +28,8 @@ const mostrarInvitado = () => {
     <button
         type="button"
         class="eliminarInvitados"
-        onclick="eliminarInvitado('${invitado.id}')">Eliminar</button><td>    
+        onclick="eliminarInvitado('${invitado.id}')">Eliminar
+        </button><td>    
     </tr>`;
   });
 };
