@@ -56,6 +56,10 @@
   padding: 20px 10px;
 }
 
+.tabla {
+  background-color: blueviolet;
+}
+
 .pie {
   background-color: plum;
   display: flex;
@@ -104,6 +108,10 @@
 
   .botones {
     padding-left: 400px;
+  }
+
+  .tabla {
+    text-align: center;
   }
 
   .pie {

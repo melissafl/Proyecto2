@@ -27,16 +27,17 @@ const mostrarInvitado = () => {
     <td>
     <button
         type="button"
-        class="eliminarInvitado"
-        onclick="eliminarInvitado('${invitado.id}')"
-    >
-    Eliminar
-    </button><td>    
+        class="eliminarInvitados"
+        onclick="eliminarInvitado('${invitado.id}')">Eliminar</button><td>    
     </tr>`;
   });
 };
 
 const eliminarInvitado = (id) => {
   console.log(id);
-  mostrarInvitado();
+  localStorage.setItem("invitados", JSON.stringify(invitados));
+};
+
+const eliminarTodo = () => {
+  localStorage.removeItem("invitados");
 };
